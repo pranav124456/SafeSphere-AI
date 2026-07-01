@@ -4,7 +4,7 @@ app = FastAPI(
     title="SafeSphere AI",
     version="1.0.0"
 )
-
+#get this
 @app.get("/")
 def root():
     return {
